@@ -19,6 +19,8 @@ body {
   }
   
   button {
+    
+    float: left;
     border: none;
     background-color: #0095dd;
     color: white;
