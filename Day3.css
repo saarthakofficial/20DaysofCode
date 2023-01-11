@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: #f6d7ff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 50px;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .photo-card {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    background-color: #f0b9ff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: auto;
+    -webkit-clip-path: polygon(5% 0, 95% 0, 100% 100%, 0 100%);
+    clip-path: polygon(5% 0, 95% 0, 100% 100%, 0 100%);
+  }
+  
+  .photo-card h2 {
+    margin-top: 20px;
+  }
+  
