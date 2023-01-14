@@ -1,0 +1,61 @@
+/* Basic styles for the page's container */
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Styles for the page's header */
+  header {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  /* Styles for the search form */
+  #search-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-form label {
+    margin-right: 10px;
+  }
+  
+  #search-form input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styles for the search results section */
+  #search-results {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #search-results .book {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styles for the book detail section */
+  #book-detail {
+    margin: 20px 0;
+  }
+  
+  #book-detail .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the page's footer */
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
