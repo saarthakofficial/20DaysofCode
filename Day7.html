@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <title>Renewed Game Consoles</title>
+    <link rel="stylesheet" type="text/css" href="Day7.css">
+  </head>
+  <body>
+    <header>
+      <h1>Renewed Game Consoles</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#policy">Renewed Policy</a></li>
+        <li><a href="#cart">Cart</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="home">
+        <h2>Available Consoles</h2>
+        <div class="console-card">
+          <img src="https://m.media-amazon.com/images/I/61ux1cU49XL.jpg" alt="Xbox One">
+          <h3>Microsoft Xbox One X 1Tb Console With Wireless Controller :  &nbsp; </h3>
+          <p>$264.99 &nbsp; </p>
+          <button onclick="addToCart(this)" data-console='{"name": "Microsoft Xbox One X 1Tb Console With Wireless Controller", "price": 264.99}'>Add to Cart</button>
+        </div>
+        <div class="console-card">
+          <img src="https://media.direct.playstation.com/is/image/sierialto/PS5-digital-edition-front-with-dualsense" alt="PS5">
+          <h3>PlayStation®5 Digital Edition Console :  &nbsp; </h3>
+          <p>$499.99 &nbsp; </p>
+          <button onclick="addToCart(this)" data-console='{"name": "PlayStation®5 Digital Edition Console", "price": 499.99}'>Add to Cart</button>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Our company specializes in selling renewed game consoles at affordable prices.</p>
+      </section>
+
+      <section id="policy">
+        <h2>Renewed Policy</h2>
+        <p>All of our consoles are thoroughly inspected and tested before being sold.</p>
+      </section>
+
+      <section id="cart">
+        <h2>Shopping Cart</h2>
+        <table id="cart-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody id="cart-table-body">
+              <!-- cart table rows will be added here -->
+            </tbody>
+          </table>
+        <p id="total-price"></p>
+        <button onclick="checkout()">Checkout</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright © 2023 Renewed Game Consoles</p>
+    </footer>
+    
+    <script src="Day7.js"></script>
+  </body>
+</html>

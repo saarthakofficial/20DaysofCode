@@ -1,0 +1,103 @@
+body {
+    color: white;
+    background: linear-gradient(to bottom, #19428f, #558dee);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+  header {
+    background-color: #2a5298;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Style navigation menu */
+  nav {
+    background-color: #1e3c72;
+    color: #fff;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+    padding: 20px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style main content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style console cards */
+  .console-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .console-card img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3); /* Add this line */
+    transition: all 0.3s ease-in-out; /* Add this line */
+  }
+  
+  /* Add hover effect to image panels */
+  .console-card img:hover {
+    transform: scale(1.1); /* Add this line */
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.5); /* Add this line */
+  }
+  
+  /* Style shopping cart table */
+  #cart-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #cart-table th {
+    background-color: #558dee;
+    color: black; /* This line changes the text color to black */
+  }
+  #cart-table th, #cart-table td {
+    border: 1px solid #558dee;
+    padding: 8px;
+  }
+  #cart-table th {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style checkout button */
+  button {
+    background-color: #2a5298;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3); /* Add this line */
+    transition: all 0.3s ease-in-out; /* Add this line */
+  }
+  
+  /* Add hover effect to buttons */
+  button:hover {
+    transform: scale(1.1); /* Add this line */
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.5); /* Add this line */
+  }
+  
+  /* Style footer */
+  footer {
+    background-color: #1e3c72;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
