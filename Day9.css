@@ -1,0 +1,58 @@
+body {
+    background-color: #333;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .input-box {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #payee-inputs input[type="number"], #payee-inputs input[type="text"] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #split-button {
+    width: 100%;
+    background-color: #006699;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #split-button:hover {
+    background-color: #004c66;
+    }
+    
+    #due {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    }
+    
+      
