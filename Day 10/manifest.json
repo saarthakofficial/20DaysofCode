@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Block Karo!",
+    "version": "1.0.7",
+    "description": "Dekho apne favourite videos bina kisi Ad ke!",
+    "author": "Saarthak Srivastava",
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.youtube.com/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+}
