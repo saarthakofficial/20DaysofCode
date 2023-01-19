@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Block Karo!",
+    "version": "1.0.0",
+    "description": "Chalao apne favourite websites bina kisi Ad ke!",
+    "author": "Saarthak Srivastava",
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.youtube.com/*",    
+            "*://*.doubleclick.net/*",
+            "*://*.googlesyndication.com/*",
+            "*://*.googleadservices.com/*",
+            "*://*.moatads.com/*",
+            "*://*.adnxs.com/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+}
