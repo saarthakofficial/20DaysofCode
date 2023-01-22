@@ -1,0 +1,86 @@
+body {
+  background: linear-gradient(to bottom, #FFFFFF, #F7E7CE);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 2px #ccc;
+}
+
+.captcha {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-style: italic;
+  font-size: 2em;
+  padding: 3px;
+  border-radius: 5px;
+  text-decoration: line-through;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #000000, #000000);
+  background-blend-mode: overlay;
+  width: 100%;
+}
+
+.restart {
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+.restart a {
+  text-decoration: none;
+  color: #666;
+  transition: 0.5s ease;
+}
+
+.restart a:hover {
+  color: #FF8B13;
+}
+
+.input input {
+  width: 100%;
+  margin-bottom: 3px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+}
+
+.input input:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 1px #ccc;
+}
+
+input[type="button"] {
+  background-color: #FF8B13;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+  transition: 0.5s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #ff5e1a;
+  cursor: pointer;
+}
+
+.errmsg {
+  color: black;
+  padding: 5px;
+  transition: 0.5s ease;
+}
